@@ -1,0 +1,51 @@
+.navbar img{
+    width: 150px;
+}
+.navbar .logout{
+text-align: right;
+}
+.navbar .logout p{
+    margin-bottom: 0;
+}
+#creategame{
+    border: 2px solid #000;
+    padding: 40px;
+    border-radius: 50px;
+}
+#game{
+    width: 100%;
+    border: 2px solid #000;
+    float: left;
+}
+.card{
+    cursor: pointer;
+    display: inline-block !important;
+    width: 15.25%;
+    height: 100px;
+    margin: 5px;
+    border: 2px solid #000;
+    float: left;
+    color: #fff;
+}
+.card span{
+    font-size: 75px;
+}
+.game-details{
+     width: 472px;
+     height: 472px;
+     margin: 0 auto;
+ }
+.game-details .card{
+    width: 17.65%;
+    height: 17.65%;
+}
+.game-details .card img{
+    height: 100%;
+}
+.leaveGame{
+    margin: 50px auto;
+    width: 200px;
+}
+a{
+    text-decoration: none !important;
+}
