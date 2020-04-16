@@ -10,6 +10,7 @@ Ce jeu à été réalisé en HTML/CSS/PHP à l'aide du framework Symfony et des 
 2) Créer une base de donnée MySQL avec le nom que vous voulez
 3) Modifier les configuration du fichier présent à la racine nommé **.env** avec les identifiants de connexion MySQL
 4) Importer la base de donnée à l'aide du script présent à la racine nommé **base_de_donnee.sql**
+5) Placez vous à la racine du dossier de votre projet et lancez la commande **composer install**
 5) **Profitez !**
 
 ## Utilisation
