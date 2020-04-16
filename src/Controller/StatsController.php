@@ -16,7 +16,7 @@ class StatsController extends AbstractController
         $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
 
         $parties = $this->getDoctrine()->getRepository(Party::class)->findBy(
-            ['state' => 1], // Tableau de filtre
+            ['state' => 1,'user_id' => $this->getUser()->getId()],// Tableau de filtre
             ['id' => 'DESC'], // Tableau de order by
             10 // Nombre max de résultat
         );

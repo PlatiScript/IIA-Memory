@@ -17,7 +17,7 @@ text-align: right;
     border: 2px solid #000;
     float: left;
 }
-.card{
+.card-game{
     cursor: pointer;
     display: inline-block !important;
     width: 15.25%;
@@ -25,19 +25,25 @@ text-align: right;
     margin: 5px;
     border: 2px solid #000;
     float: left;
+    padding: 5px;
     color: #fff;
 }
-.card span{
+.card-game img{
+    height: 90%;
+}
+.not-reveal{
+    background-color: #343a40 ;
+}
+.card-game span{
     font-size: 75px;
 }
 .game-details{
-     width: 472px;
-     height: 472px;
      margin: 0 auto;
  }
-.game-details .card{
-    width: 17.65%;
-    height: 17.65%;
+.game-details .card-game{
+    width: 15.3%;
+
+    height: 120px;
 }
 .game-details .card img{
     height: 100%;

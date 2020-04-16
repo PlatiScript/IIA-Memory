@@ -11,7 +11,7 @@
     <body>
     <nav class="navbar navbar-light bg-light justify-content-between">
         <div class="container">
-            <a class="navbar-brand" href="{{ url('game') }}"><img src="{{ asset('img/logo.png') }}" alt="Logo memory"></a>
+            <a class="navbar-brand" href="{{url('game') }} "><img src="{{ asset('img/logo.png') }}" alt="Logo memory"></a>
             {% if app.user %}
                 <a href="{{ url('stats') }}" class="btn btn-primary"><i class="fas fa-signal"></i> Mes statistiques</a>
                 <div class="logout">
@@ -22,7 +22,7 @@
             {% else %}
                 <div class="logout">
                     <p>Vous n'êtes pas connecté</p>
-                    <div class="btn btn-primary">Se connecter <i class="fas fa-sign-in-alt"></i></div>
+                    <a href="{{ url('app_login') }}"><div class="btn btn-primary">Se connecter <i class="fas fa-sign-in-alt"></i></div></a>
 
                 </div>
             {% endif %}
